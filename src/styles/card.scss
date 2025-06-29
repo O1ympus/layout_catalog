@@ -102,7 +102,7 @@
     transform: scale(1.2);
   }
 
-  &:hover &__info p:first-of-type {
+  &:hover .card__info p:first-of-type {
     color: $card-title-hover;
   }
 
