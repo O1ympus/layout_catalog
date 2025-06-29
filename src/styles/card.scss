@@ -102,16 +102,12 @@
     transform: scale(1.2);
   }
 
-  &:hover .card__info p:first-of-type {
+  &:hover &__info p:first-of-type {
     color: $card-title-hover;
   }
 
   &:hover &__button {
     background-color: #fff;
     color: $card-button-hover;
-  }
-
-  &:hover header nav ul li a {
-    color: $nav-link-on-card-hover;
   }
 }
