@@ -99,8 +99,7 @@
   }
 
   &:hover {
-    width: calc(200px * 1.2);
-    height: calc(408px * 1.2);
+    transform: scale(1.2);
   }
 
   &:hover &__info p:first-of-type {
